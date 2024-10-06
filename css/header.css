@@ -1,3 +1,7 @@
+body{
+    height: auto ;
+}
+
 .nav_contacto{
     .contacto{
         background-color: rgb(37, 37, 63);
@@ -49,29 +53,44 @@
             a:hover{
                 color: orange;
             }
+
         }
-    }
 
+    }
 }
 
-
-@media ( width < 768px ) {
-
-    .contacto li a span{
-        display: none;
-    }
-    
+.hamburguesa{
+    display: none;
 }
 
 
 
+.desplegable_mobile{
+    text-align: center;
+    display: none;
+    padding: 16px;
+    li{
+        border-bottom: 1px solid grey;
+        margin: 10px;
+    }
+
+ }
 
 
-
+.flecha{
+position: fixed;
+font-size: 60px;
+margin-bottom: 50px;
+bottom: 0;
+margin-left: 90%;
+    a{
+        color: rgb(250, 82, 15); ;
+    }
+}
 
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
@@ -82,6 +101,50 @@ footer{
         padding: 15px;
         text-align: left;
     }
+}
+
+
+
+
+/*Pantalla mobile header*/
+@media ( width < 768px ) {
+
+    .contacto li a span{
+        display: none;
+    }
+
+    .desplegables{
+        display: none;
+    }
+
+    .hamburguesa{
+        display:flex;
+    }
+
+    .desplegable_mobile{
+        display: block;
+
+        li{
+            margin:10px;
+            
+
+            a{
+                text-decoration: none;
+                color:rgb(177, 174, 174);
+            }
+
+            a:hover{
+                color: orange;
+            }
+
+        }
+    }
+
+    footer div{
+        text-align: center;
+    }
+
+    
 }
 
 

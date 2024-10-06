@@ -1,64 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 1</title> 
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="nav_contacto">
-            <ul class="contacto">
-                <li>  
-                    <a href=".">                    
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>rover@gmail.com</span>
-                    </a>                   
-                </li>
-                <li>   
-                    <a href=".">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>91 555 66 77</span>
-                    </a>
-                </li>
-                <li>
-                    <a href=".">
-                        <i class="fa-solid fa-shopping-cart"></i>
-                        <span>Carrito</span>
-                    </a>  
-                </li>
-                <li>
-                    <a href=".">
-                        <i class="fa-solid fa-user-circle"></i>
-                        <span>Usuario</span>
-                    </a>                   
-                </li>
-            </ul>
+      <nav class="nav_contacto">
+        <ul class="contacto">
+          <li>
+            <a href=".">
+              <i class="fa-solid fa-envelope"></i>
+              <span>rover@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href=".">
+              <i class="fa-solid fa-phone"></i>
+              <span>91 555 66 77</span>
+            </a>
+          </li>
+          <li>
+            <a href=".">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <span>Carrito</span>
+            </a>
+          </li>
+          <li>
+            <a href=".">
+              <i class="fa-solid fa-user-circle"></i>
+              <span>Usuario</span>
+            </a>
+          </li>
+        </ul>
 
-            <div class="nav_menu">
-                <img src="./img/logo.jpg" alt="logo_rovers">
-                <ul class="desplegable">
-                    <li><a href=".">Inicio</a></li>
-                    <li><a href=".">Blog</a></li>
-                    <li><a href=".">Menu</a></li>
-                </ul>
-            </div>
+        <div class="nav_menu">
+          <img src="./img/logo.jpg" alt="logo_rovers" />
+          <ul class="desplegable">
+            <li><a href="." class="desplegables">Inicio</a></li>
+            <li><a href="./blog.html" class="desplegables">Blog</a></li>
+            <li><a href="." class="desplegables">Menu</a></li>
+            <li class="hamburguesa">
+              <i class="fa-solid fa-bars"></i>
+            </li>
+          </ul>
+        </div>
 
-        </nav>
+        <ul class="desplegable_mobile">
+          <li><a href=".">Inicio</a></li>
+          <li><a href=".">Blog</a></li>
+          <li><a href=".">Menu</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-        <h1></h1>
+    <main class="main">
+      <div class="Bienvenido">
+        <h1>Las mejores hamburguesas del mundo</h1>
+        <h2>Bienvenido a nuestra hamburguesería</h2>
+        <p>Come a partir de 15€</p>
+        <a href="." class="nuestra_carta">
+          Nuestra carta
+          <i class="fa-solid fa-long-arrow-alt-right"></i>
+        </a>
+        <ul class="contacto_main">
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="nuestros_servicios">
+        <h2>Nuestros <span class="servicios">servicios</span></h2>
+        <div class="linea">
+          <hr />
+          <span>X</span>
+        </div>
+
+        <ul class="section_nuestros_servicios">
+          <li class="borde">
+            <ul>
+              <li>
+                <i class="fa-solid fa-cogs iconos_nuestros_servicios"></i>
+              </li>
+              <h3 class="titulos_servicios">1. Carne 100% natural</h3>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                quaerat veniam perspiciatis asperiores, maiores placeat a,
+                explicabo voluptatem exercitationem possimus, sed aut. Fugiat
+                labore libero odit hic harum nisi minima!
+              </li>
+              <li>
+                <a href="." class="leer">
+                  leer más
+                  <i class="fa-solid fa-long-arrow-alt-right"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="borde">
+            <ul>
+              <li>
+                <i class="fa-solid fa-truck iconos_nuestros_servicios"></i>
+              </li>
+              <h3 class="titulos_servicios">2. Cocina moderna</h3>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                quaerat veniam perspiciatis asperiores, maiores placeat a,
+                explicabo voluptatem exercitationem possimus, sed aut. Fugiat
+                labore libero odit hic harum nisi minima!
+              </li>
+              <li>
+                <a href="." class="leer">
+                leer más
+                  <i class="fa-solid fa-long-arrow-alt-right"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="borde">
+            <ul>
+              <li>
+                <i class="fa-solid fa-heart iconos_nuestros_servicios"></i>
+              </li>
+              <h3 class="titulos_servicios">3. Servicio impecable</h3>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                quaerat veniam perspiciatis asperiores, maiores placeat a,
+                explicabo voluptatem exercitationem possimus, sed aut. Fugiat
+                labore libero odit hic harum nisi minima!
+              </li>
+              <li>
+                <a href="." class="leer">
+                    leer más
+                  <i class="fa-solid fa-long-arrow-alt-right"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sobre_nosotros">
+        <h2>Sobre <span class="servicios">Nosotros</span></h2>
+        <div class="linea">
+          <hr />
+          <span>X</span>
+        </div>
+
+        <ul class="nosotros">
+          <li>
+            <img src="./img/about-main.jpg" class="img_nosotros" alt="" />
+          </li>
+          <li>
+            <ul class="texto">
+              <li><h3>Nuesta historia</h3></li>
+              <li><h4>Nuestro restaurante</h4></li>
+              <li>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, atque. Minus deserunt odio reiciendis non debitis.
+                  Odit iusto quidem eaque!
+                </p>
+              </li>
+              <a href="." class="leer_mas">
+                Leer mas
+                <i class="fa-solid fa-long-arrow-alt-right"></i>
+              </a>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </main>
 
+    <div class="flecha">
+        <a href="#top">
+            <i class="fa-solid fa-caret-square-up"></i>
+        </a>
+    </div>
 
     <footer>
-        <div>
-            Copyright©2024 - Aviso legal 
-        </div>
+      <div>Copyright©2024 - Aviso legal</div>
     </footer>
-    
-</body>
+  </body>
 </html>
