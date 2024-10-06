@@ -1,0 +1,62 @@
+.nuestro_blog{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 160px;
+
+    h2{   
+        text-align: center;
+        font-size: 2em;
+
+        .servicios{
+            color: rgb(250, 82, 15);
+        }
+    }
+
+    .linea{
+        margin: auto;
+        width: 100px;
+        position: relative;
+
+        span{
+            margin-left: 45%;
+            position: absolute;
+            margin-top: -16.5px;
+            color: rgb(250, 82, 15);
+        }
+    }
+    
+    .section_nuestro_blog{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        margin-left: 10%;
+        margin-right: 10%;
+        height: auto;
+
+        img{
+            width: 350px;
+        }
+
+        ul li{
+            margin-bottom: 12px;
+        }
+        .titulos_blogs{
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .leer{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(250, 82, 15);
+        }
+
+        .posted{
+            color: rgb(250, 82, 15);
+            margin-bottom: 10px;
+        }
+
+
+    }
+
+}
