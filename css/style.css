@@ -1,12 +1,6 @@
-.nav_contacto{
-    background-color: rgb(37, 37, 63);
-    color: whitesmoke;
-    display: flex;
-    height: 50px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.icon_nav{
-    color: rgb(250, 82, 15);
-}
+/*Estilos para los iconos*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+/*css reset*/
+@import url("./reset.css");
+/*Css del header*/
+@import url("./header.css");
