@@ -34,5 +34,34 @@
 
     .bckgr:hover{
         background-color: rgb(250, 82, 15);
+        border-radius: 5px;
+    }
+}
+
+.div_menu_izquierda{
+
+    ul li{
+        margin-bottom: 30px;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .ofertas_dia{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+.articulo_menu{
+    display: flex;
+    margin-top: 20px;
+
+    img{
+        width: 200px;
+        height: auto;
     }
 }
