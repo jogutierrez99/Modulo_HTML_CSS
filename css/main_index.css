@@ -1,4 +1,4 @@
-main{
+.main{
     height: 60vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpg");
     background-size: cover;

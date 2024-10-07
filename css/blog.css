@@ -1,8 +1,17 @@
+.main_blog{
+
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
 .nuestro_blog{
     position: absolute;
     display: inline-block;
     width: 100%;
-    top: 160px;
+    top: 20px;
 
     h2{   
         text-align: center;

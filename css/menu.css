@@ -1,0 +1,38 @@
+.main_menu{
+    background-color: rgb(37, 37, 63);
+    
+    
+    h2{   
+        text-align: center;
+        font-size: 2em;
+        color: white;
+
+        .servicios{
+            color: rgb(250, 82, 15);
+        }
+    }
+
+    .linea{
+        margin: auto;
+        width: 100px;
+        position: relative;
+
+        span{
+            margin-left: 45%;
+            position: absolute;
+            margin-top: -16.5px;
+            color: rgb(250, 82, 15);
+        }
+    }
+}
+
+.section_menu{
+    display: flex;
+    color: white;
+    width: 60%;
+    margin: auto;
+
+    .bckgr:hover{
+        background-color: rgb(250, 82, 15);
+    }
+}
